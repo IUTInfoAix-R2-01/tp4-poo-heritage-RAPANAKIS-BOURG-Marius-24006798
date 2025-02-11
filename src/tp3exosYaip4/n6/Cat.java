@@ -13,7 +13,7 @@ public class Cat extends Mammal{
 	}
 	
 	public void greets() {
-		System.out.println("Meow")
+		System.out.println("Meow");
 	}
 	
 }
