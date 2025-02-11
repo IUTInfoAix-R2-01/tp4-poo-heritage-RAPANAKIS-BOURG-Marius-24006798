@@ -12,6 +12,14 @@ public class Animal {
 		return "Animal [name=" + name + "]";
 	}
 	
+	public static void main(String[] args) {
+        Animal animal1 = new Animal("Lion");
+        Animal animal2 = new Animal("Elephant");
+
+        System.out.println(animal1);
+        System.out.println(animal2);
+    }
+	
 	
 	
 }

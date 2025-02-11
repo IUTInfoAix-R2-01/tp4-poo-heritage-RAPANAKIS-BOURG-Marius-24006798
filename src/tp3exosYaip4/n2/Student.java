@@ -41,4 +41,17 @@ public class Student extends Person {
 		return "Student[program=" + program + ", year=" + year + ", fee=" + fee + "]";
 	}
 	
+	public static void main(String[] args) {
+        Student student1 = new Student("John Doe", "123 Main St", "Program A", 1, 1000.0);
+        Student student2 = new Student("Jane Smith", "456 Elm St", "Program B", 2, 2000.0);
+        
+        System.out.println(student1);
+        System.out.println(student2);
+
+        student1.setProgram("Program C");
+        student1.setYear(3);
+        student1.setFee(1500.0);
+        System.out.println(student1);
+    }
+	
 }

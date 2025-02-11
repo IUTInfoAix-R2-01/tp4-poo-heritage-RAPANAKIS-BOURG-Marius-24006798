@@ -27,4 +27,15 @@ public class Person {
 		return "Person[name=" + name + ", address=" + address + "]";
 	}
 	
+	public static void main(String[] args) {
+        Person person1 = new Person("John Doe", "123 Main St");
+        Person person2 = new Person("Jane Smith", "456 Elm St");
+        
+        System.out.println(person1);
+        System.out.println(person2);
+
+        person1.setAddress("789 Oak St");
+        System.out.println(person1);
+    }
+	
 }
