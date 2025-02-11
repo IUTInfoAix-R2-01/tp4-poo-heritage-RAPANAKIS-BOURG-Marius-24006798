@@ -21,12 +21,13 @@ public class VeloElectrique extends Velo {
 		this.facteurPuissanceMoteur = facteurPuissanceMoteur;
 	}
 
-	public VeloElectrique(double braquet, double diamRoue) {
-		super(braquet, diamRoue);
-		this.facteurPuissanceMoteur = 0.0;
+	public VeloElectrique(double diamRoue, double facteurPuissanceMoteur) {
+		super(0.0, diamRoue);
+		this.facteurPuissanceMoteur = facteurPuissanceMoteur;
 	}
 	
 	public VeloElectrique() {
+		super(0.0, 0.0);
 		this.facteurPuissanceMoteur = 0.0;
 	}
 
