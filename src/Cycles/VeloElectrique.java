@@ -41,7 +41,7 @@ public class VeloElectrique extends Velo {
 		return super.getPuissance(FrequenceCoupsDePedale) * facteurPuissanceMoteur;
 	}
 	
-	public static void main() {
+	public static void main(String[] args) {
 		
 		VeloElectrique ve1 = new VeloElectrique();
 		VeloElectrique ve2 = new VeloElectrique(10.0,5.0);
@@ -67,8 +67,4 @@ public class VeloElectrique extends Velo {
 		System.out.println(ve2.getPuissance(15.0));
 		System.out.println(ve3.getPuissance(15.0));
 	}
-	
-
-	
-	
 }
