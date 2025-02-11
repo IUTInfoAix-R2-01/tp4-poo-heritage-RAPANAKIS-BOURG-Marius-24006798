@@ -1,0 +1,27 @@
+Ex5)
+
+Redéfinir une méthode signifie réécrire une méthode dans une classe mère, dans une classe fille.
+On peut donc altérer son comportement.
+
+Ex6)
+
+Dans Velo, c'est toString qui est redéfinie.
+
+Dans VeloElectrique, c'est toString et getPuissance qui sont redéfinie.
+On redéfinie getPuissance pour rajouter le facteur du moteur, absent de velo.
+
+Ex7)
+
+@Override permet de redéfinir une méthode.
+
+Ex8)
+
+@Override permet d'avoir une double sécurité pour le développeur qui veut redéfinir sa méthode,
+en soit sa présence n'est pas obligatoire, mais si @Override est placé, si une erreur de syntaxe a lieu,
+l'IDE le signalera.
+On peut donc se dispenser d'@Override si on est sûr de ce qu'on écrit.
+
+Ex10)
+
+super indique qu'on se réfère à la classe mère. Donc super.getPuissance(FrequenceCoupsDePedale) va
+appeller la fonction getPuissance dans la classe mère.
